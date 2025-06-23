@@ -1,4 +1,4 @@
-def get_mask_card_number(card_number):
+def get_mask_card_number(card_number: str) -> str | None:
     """Функция маскировки номера банковской карты"""
     if len(card_number) != 16 or (not card_number.isdigit()):
         print("Попробуйте снова")

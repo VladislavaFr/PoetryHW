@@ -24,11 +24,11 @@ isort = "^6.0.1"
 [tool.mypy]
 disallow_untyped_defs=true
 warn_return_any=true
-exclude = venv
+exclude = "venv"
 
 [tool.isort]
 line_length = 119
 
 [tool.black]
 line-length = 119
-exclude = .git
+exclude = ".git"
